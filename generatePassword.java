@@ -9,6 +9,7 @@ public class generatePassword {
 		StringBuilder Password = new StringBuilder();
 		Random random = new Random();
 
+//		adding characters to the string chars for the password to be pulled by
 		String lowercase = "abcdefghijklmnopqrstuvwxyz";
 		String uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 		String numbers = "0123456789";
